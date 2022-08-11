@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Java Standart Taglib</title>
+<title>Java Standard Tag Library</title>
 </head>
 <body>
 
