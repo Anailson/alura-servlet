@@ -22,8 +22,14 @@
 	<ul>
 		 <c:forEach items= "${empresas}" var="empresa">
 		 	 <li>${empresa.nome} - <fmt:formatDate value="${empresa.dataAbertura }" pattern="dd/MM/yyyy"/>
-		 	  			<a href="/gerenciador/mostraEmpresa?id=${empresa.id}">edita</a>
-		 	 		 <a href="/gerenciador/removeEmpresa?id=${empresa.id}">remove</a>
+		 	  	<a href="/gerenciador/mostraEmpresa?id=${empresa.id}">edita</a>
+		 	  	<a href="/gerenciador/removeEmpresa?id=${empresa.id}">remove</a>
+		 	
+		 <!-- 
+		 <input type="button" style="background: blue;" onclick="window.location.href='/gerenciador/removeEmpresa?id=${empresa.id}';" value="Remover" />
+		 	 	 
+		 	 		
+		  -->	
 		 	 </li>
 		 </c:forEach>
 	</ul>
