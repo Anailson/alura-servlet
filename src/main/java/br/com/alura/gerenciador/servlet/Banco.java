@@ -1,4 +1,4 @@
-package br.com.alura.gerenciador.serlvet;
+package br.com.alura.gerenciador.servlet;
 
 import java.util.ArrayList;
 import java.util.Iterator;

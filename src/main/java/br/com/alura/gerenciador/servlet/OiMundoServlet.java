@@ -1,4 +1,4 @@
-package br.com.alura.gerenciador.serlvet;
+package br.com.alura.gerenciador.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 //http://localhost:8080/gerenciador/oi
-@WebServlet(urlPatterns = "/oi")
+//@WebServlet(urlPatterns = "/oi")
 public class OiMundoServlet extends HttpServlet {
 
 	@Override
