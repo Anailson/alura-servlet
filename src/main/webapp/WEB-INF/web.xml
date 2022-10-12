@@ -10,6 +10,13 @@
    		<servlet-class>br.com.alura.gerenciador.servlet.OiMundoServlet</servlet-class>
    </servlet>
    
+     <!--
+   <session-config>
+   10 min REMOVE A SESSÃO APOS O TEMPO 1MIN
+    <session-timeout>1</session-timeout>
+	</session-config> 
+	 -->
+   
    <servlet-mapping>
    		<servlet-name>OiMundoServlet</servlet-name>
     	 <url-pattern>/ola</url-pattern>
