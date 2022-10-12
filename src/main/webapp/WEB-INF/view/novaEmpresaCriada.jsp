@@ -7,6 +7,8 @@
 </head>
 <body>
 
+    <c:import url="Logout-parcial.jsp"/>
+    
 	<c:if  test="${not empty empresa }">
 		   Empresa ${ empresa } Cadastrada com sucesso!
 	</c:if>
