@@ -23,6 +23,8 @@ public class AlteraEmpresa implements Acao {
 		Integer id = Integer.valueOf(paramId);
 		
 		System.out.println("ação alterando empresa" + id);
+		
+		
 				
 		Date dataAbertura = null;
 		
